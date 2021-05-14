@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 527: end of line expected.
+    hide fird_test with moveoutright:
+                                    ^
+
+Ren'Py Version: Ren'Py 7.4.4.1439
+Fri May 14 12:47:25 2021

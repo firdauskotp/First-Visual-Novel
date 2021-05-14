@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 485, in script
+    jump lblKhaiInto
+ScriptError: could not find label 'lblKhaiInto'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 485, in script
+    jump lblKhaiInto
+  File "renpy/ast.py", line 1711, in execute
+    rv = renpy.game.script.lookup(target)
+  File "renpy/script.py", line 910, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'lblKhaiInto'.
+
+Windows-10-10.0.19041
+Ren'Py 7.4.4.1439
+Kidocode Visual Novel 1.0
+Fri May 14 01:37:17 2021
