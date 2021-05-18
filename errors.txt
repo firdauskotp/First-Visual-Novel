@@ -2,9 +2,17 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 527: end of line expected.
-    hide fird_test with moveoutright:
-                                    ^
+File "game/script.rpy", line 921: expected ':' not found.
+    label lblVNC
+                ^
+
+File "game/script.rpy", line 923: expected ':' not found.
+    label lblSSH
+                ^
+
+File "game/script.rpy", line 925: expected ':' not found.
+    label lblPutty
+                  ^
 
 Ren'Py Version: Ren'Py 7.4.4.1439
-Fri May 14 12:47:25 2021
+Sun May 16 23:27:56 2021
